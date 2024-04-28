@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+body{
+    background-color: #fff;
+}
+#sec1 nav{
+margin: 60px;
+padding: 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#sec1 ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+#sec1 nav ul li{
+    padding: 0px;
+    margin-left:45px;
+    list-style: none;
+    color: hsl(238, 22%, 44%);
+}
+#sec1 nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+}
+li a:hover{
+    color:hsl(243, 87%, 12%) ;
+    font-weight: 500;
+}
+#content1{
+  
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    margin: 90px 60px;
+    padding: 0px;
+}
+.heading-one{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    
+}   
+.heading-one .head1{
+    font-size: 45px;
+    font-weight: 700;
+    width: 700px;
+    cursor: pointer;
+    color:hsl(243, 87%, 12%) ;
+    transition: 0.5s;
+}
+.heading-one .para-one{
+    margin: 15px 0px;
+    padding: 0px;
+    color: hsl(238, 22%, 44%) ;
+    font-weight: 500;
+    width: 510px;
+    line-height: 150%;
+}
+form input{
+    height: 40px;
+    width: 300px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 2px;
+    padding: 20px;
+}
+form button{
+    height: 41px;
+    width: 160px;
+    color:#fff;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 2px;
+    font-weight: 500;
+}
+picture img{
+    position: relative;
+    top: 10px;
+    left: 0px;
+    transition: 0.5s;
+}
+
+
+#content2{
+   background-image: url(./images/bg-curve-desktop.svg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 0px;
+   padding: 80px 60px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+}
+.heading-two{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+#heading2 .head2{
+    font-size: 45px;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+}
+#heading2 .para-two{
+    margin: 20px 0px;
+    padding: 0px;
+    width: 520px;
+    color: hsl(238, 22%, 44%);
+    font-weight: 500;
+}
+#heading2 h3{
+    text-decoration: underline;
+    color:hsl(170, 45%, 43%) ;
+    padding:0px;
+    margin:0px;
+    
+}
+#heading2 h3 a{
+    color:hsl(170, 45%, 43%);
+    font-size:16px;
+    font-weight: 500;
+    text-decoration:none;
+    padding: 0px 0px;
+    margin:0px;
+}
+.icon-arrow{
+    position: relative;
+    top: 5px;
+    left:2px ;
+}
+.quote{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #fff;
+    width: 360px;
+    margin: 30px 0px;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow:0px 0px 2px 1px gray;
+    border: none;
+}
+
+.quote .quote1{
+    color:hsl(238, 22%, 44%) ;
+    font-size: 15px;
+    font-weight: 500;
+    width: 320px;
+    margin: 10px 0px;
+}
+.avator{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.avator .avatorimg{
+    border-radius: 50%;
+    margin:10px 10px 0px 0px;
+}
+b{
+    font-size: 13px;
+    font-weight: 700;
+}
+p.name{
+    font-size: 10px;
+    font-weight: 500;
+    width:112.5px;
+    color:hsl(243, 87%, 12%) ;
+}
+picture #img2{
+    position: relative;
+    top: 0px;
+    left: 160px;
+    transition: 0.5s;
+}
+
+#content3{
+    background-color: hsl(238, 22%, 44%);
+    width:100%;
+    margin: 0px ;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heading3{
+    margin: 70px;
+    padding: 0px;
+    width: 100%;
+}
+.heading3 .head3{
+    color: #fff;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+}
+.heading3 .para-four{
+    color:hsl(0, 0%, 75%);
+    font-weight: 500;
+    width: 500px;
+    margin-top: 15px;
+    padding: 0px;
+}
+form#form2{
+  margin: 40px;
+}
+form .input2{
+    width: 400px;
+    border: none;
+    outline: 0px;
+    /* box-shadow: 1px 1px 5px 0px black; */
+    border-radius: 2px;
+    color: gray;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+button.btn2{
+    /* box-shadow: 2px 2px 4px black; */
+    border: none;
+    border-radius: 2px;
+    outline: 0px;
+    font-weight: 500;
+    padding: 10px;
+    width:180px;
+    text-align: center;
+}
+footer{
+    background-color:hsl(243, 87%, 12%) ;
+    margin:0px;
+    padding: 70px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+footer .phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+header.logo{
+      padding: 0px;
+      margin-bottom:10px;
+}
+p.para-six{
+    color: hsl(238, 22%, 44%);
+    font-weight: 500;
+    margin-top: 10px;
+    padding-left:0px;
+
+}
+p img.call{
+    position: relative;
+    top: 3px;
+    left: 0px;
+    margin-right: 15px;
+}
+.callto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.callto ul li{
+   display: flex;
+   list-style: none;
+   margin-bottom: 10px;
+}
+.callto ul li a{
+    
+    text-decoration: none;
+    color:  hsl(238, 22%, 44%);
+    margin: 0px;
+    padding: 0px;
+}
+.calltoo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calltoo ul li{
+   display: flex;
+   list-style: none;
+   margin-bottom: 10px;
+}
+.calltoo ul li a{
+    
+    text-decoration: none;
+    color:  hsl(238, 22%, 44%);
+    margin: 0px;
+    padding: 0px;
+}
+.socialmedia .fa-brands{
+    margin: 0px;
+    padding-left:10px;
+
+}
+
+
